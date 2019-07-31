@@ -14,6 +14,11 @@ namespace WebApplication1.Controllers
             return View();
         }
 
+        public ActionResult DemoView()
+        {
+            return View();
+        }
+
         // GET: product/Details/5
         public ActionResult Details(int id)
         {
