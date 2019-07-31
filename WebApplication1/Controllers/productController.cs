@@ -16,7 +16,9 @@ namespace WebApplication1.Controllers
 
         public ActionResult DemoView()
         {
+            var test = "下雨了";
             return View();
+
         }
 
         // GET: product/Details/5
