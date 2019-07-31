@@ -138,6 +138,7 @@
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
+    <Compile Include="Controllers\productController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -251,6 +252,7 @@
       <LastGenOutput>Reference.cs</LastGenOutput>
     </Content>
     <Content Include="Views\Person\wf.cshtml" />
+    <Content Include="Views\product\Index.cshtml" />
     <None Include="Web References\WebReference\WorkflowService.wsdl" />
   </ItemGroup>
   <ItemGroup>
